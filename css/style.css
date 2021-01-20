@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+/* Nav Section Start */
+.navbar {
+    height: 53px;
+    width: 100%;
+    background: white;
+    box-shadow: 0px 1px 10px #888888;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    letter-spacing: 4px;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-logo {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.nav-logo:hover {
+    background: rgb(212, 212, 212);
+}
+
+.nav-menu li {
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.nav-menu li:hover {
+    background: rgb(212, 212, 212);
+}
+/* Nav Section End */
+
+.hero-image {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .hero-image-content {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #eee;
+    border: 3px solid black;
+} */
+
+/* Project Section Start */
+.bottom-center {
+    max-width: 1500px;
+    margin: auto;
+    /* background-color: lightblue; */
+}
+
+.bottom-section {
+    margin: 0px 49px;
+    padding: 8px 16px;
+}
+
+.project-section-wrapper {
+    padding: 32px 16px;
+}
+
+.project-section-heading {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0px;
+    padding: 16px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.image-fit {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    width: 100%;
+    padding: 0px 8px;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0px 3px;
+    position: relative;
+}
+
+/* .image-heading {
+    padding: 8px 16px;
+    position: absolute;
+    background-color: black;
+    font-size: 15px;
+} */
+/* Project Section End */
+
+/* About Section Start */
+.image-fit-about {
+    width: 100%;
+    filter: grayscale(75%);
+}
+
+.about-section-wrapper {
+    padding: 32px 16px;
+}
+
+.about-section-heading {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0px;
+    padding: 16px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.about-section-content {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+.team-name {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.team-position {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    opacity: 0.60;
+    margin: 15px 0px;
+}
+
+.team-content {
+    margin: 15px 0px;
+}
+/* About Section End */
+
+/* Contact Section Start */
+.contact-button {
+    display: flex;
+    padding: 8px 16px;
+    background-color: rgb(230, 229, 229);
+    justify-content: center;
+    margin: 0px 6px 0px 6px;
+}
+
+.contact-button:hover {
+    background: rgb(197, 197, 197);
+}
+
+/* Contact Section Start */
+.contact-section {
+    padding: 32px 16px;
+}
+
+.contact-heading {
+    font-family: 'Segoe UI',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0px;
+    padding: 16px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-content {
+    margin: 15px 0px;
+}
+
+
+
+.form input {
+    display: flex;
+    padding: 10px 8px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.form-name {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.form-email, .form-subject, .form-comment {
+    margin: 16px 0px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.form-btn {
+    background-color: #000000;
+    margin: 16px 0px;
+    padding: 8px 16px;
+    color: #fff;
+    border: black;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.form-btn:hover {
+    background: rgb(212, 212, 212);
+    color: black;
+}
+/* Contact Section End */
+
+/* Footer Section Start */
+footer {
+    height: 84px;
+    width: 100%;
+    background-color: black;
+    padding: 16px 0px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    margin: 15px 0px;
+}
+
+/* Footer End */
+
+
